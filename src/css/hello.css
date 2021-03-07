@@ -1,21 +1,24 @@
 html,body
 {
     font-size: 18px;
-    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Microsoft YaHei", Tahoma, Arial;
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Microsoft YaHei", Tahoma, Arial, serif;
     height:100%;
+    width:100%;
     margin: 0;
-    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
     background-image: linear-gradient(to bottom, #F2F6FF -10.36%,white 100%);
     background-clip: padding-box;
     background-size: auto;
     background-repeat: repeat;
     background-attachment: scroll;
-    background-position: 0% 0%;
+    background-position: 0 0;
 }
 
 section
 {
     height:100%;
+    width:100%;
 }
 
 div#main
@@ -24,6 +27,17 @@ div#main
     top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+#left_ball
+{
+    background: linear-gradient(44.11deg,rgba(255,255,255,0) 8.94%,rgba(139,233,223,0.75) 86.73%);
+    position: absolute;
+    left:-500px;
+    top:100px;
+    width: 150rem;
+    height: 150rem;
+    border-radius: 51%;
 }
 
 div#foot
